@@ -7,6 +7,13 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>SolarVillageProj</name>
+  <dependencies>
+    <dependency>
+      <groupId>ragrahari</groupId>
+      <artifactId>solarvillage-domainmodel</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
