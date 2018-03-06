@@ -38,8 +38,12 @@
 </field>
 <field position="3" name="hoaMeetingDate" type="InputText" id="549435825">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;hoaMeetingDate (hoaMeetingDate)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;When is the next HOA Meeting?quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="hoaMeetingDate"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
@@ -48,5 +52,5 @@
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="id" value="java.lang.String" id="id"/>
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="isHOAMember" value="java.lang.String" id="isHOAMember"/>
 <dataHolder inputId="" name="#9BCAFA" type="basicType" outId="isPermitApproved" value="java.lang.String" id="isPermitApproved"/>
-<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="order" value="model.Order" id="order"/>
+<dataHolder supportedType="className" inputId="" name="#B29FE4" type="dataModelerEntry" outId="order" value="model.Order" id="order"/>
 </form>
