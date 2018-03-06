@@ -5,50 +5,34 @@
 <property name="status" value="0"/>
 <field position="0" name="address" type="InputText" id="1991906154">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;address (address)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="address"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="id" type="InputText" id="257455337">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (id)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Id for the permit requestquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="id"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="isPermitApproved" type="InputText" id="1664495811">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;isPermitApproved (isPermitApproved)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="isPermitApproved"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="order_isHOAMember" type="CheckBox" id="1107515876">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;isHOAMember (order)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="order/isHOAMember"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="4" name="order_address" type="InputText" id="1350414193">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;address (order)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="order/address"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="order_id" type="InputTextInteger" id="82464518">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (order)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="order/id"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
 <field position="2" name="isHOAMember" type="InputText" id="1448943059">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;isHOAMember (isHOAMember)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;HOA Affiliation - true/falsequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="isHOAMember"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
