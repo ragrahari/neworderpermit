@@ -1,0 +1,70 @@
+
+<form id="787414983">
+<property name="name" value="SolarVillageProj.GovernmentPermit-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="electricalPermitApproved" type="CheckBox" id="2036135724">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;electricalPermitApproved (electricalPermitApproved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="electricalPermitApproved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="structuralRestServiceRequest" type="InputText" id="605464788">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;structuralRestServiceRequest (structuralRestServiceRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="structuralRestServiceRequest"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="electricalPermitRequest" type="InputText" id="718991401">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;electricalPermitRequest (electricalPermitRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="electricalPermitRequest"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="electricalRestServiceRequest" type="InputText" id="586455281">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;electricalRestServiceRequest (electricalRestServiceRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="electricalRestServiceRequest"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="structuralPermitRequest" type="InputText" id="1814064837">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;structuralPermitRequest (structuralPermitRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="structuralPermitRequest"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="govtPermit_isGovtPermitApproved" type="CheckBox" id="1365083355">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isGovtPermitApproved (govtPermit)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="govtPermit/isGovtPermitApproved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="govtPermitApproved" type="CheckBox" id="553333317">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;govtPermitApproved (govtPermitApproved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="govtPermitApproved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="structuralPermitApproved" type="CheckBox" id="2103106276">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;structuralPermitApproved (structuralPermitApproved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="structuralPermitApproved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="electricalPermitApproved" value="java.lang.Boolean" id="electricalPermitApproved"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="electricalPermitRequest" value="java.lang.String" id="electricalPermitRequest"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="electricalRestServiceRequest" value="java.lang.String" id="electricalRestServiceRequest"/>
+<dataHolder supportedType="className" inputId="" name="#FF54A7" type="dataModelerEntry" outId="govtPermit" value="model.GovernmentPermit" id="govtPermit"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="govtPermitApproved" value="java.lang.Boolean" id="govtPermitApproved"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="structuralPermitApproved" value="java.lang.Boolean" id="structuralPermitApproved"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="structuralPermitRequest" value="java.lang.String" id="structuralPermitRequest"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="structuralRestServiceRequest" value="java.lang.String" id="structuralRestServiceRequest"/>
+</form>
