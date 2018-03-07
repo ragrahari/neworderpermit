@@ -1,0 +1,24 @@
+
+<form id="823215802">
+<property name="name" value="SolarVillageProj.GovernmentPermit-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="electricalPermitRequest" type="InputText" id="98780014">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;electricalPermitRequest (electricalPermitRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="electricalPermitRequest"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="restServiceRequest" type="InputText" id="1441493940">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;restServiceRequest (restServiceRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="restServiceRequest"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="electricalPermitRequest" value="java.lang.String" id="electricalPermitRequest"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="govtPermit" value="model.GovernmentPermit" id="govtPermit"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="govtPermitApproved" value="java.lang.Boolean" id="govtPermitApproved"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="restServiceRequest" value="java.lang.String" id="restServiceRequest"/>
+</form>
