@@ -3,20 +3,6 @@
 <property name="name" value="SolarVillageProj.GovernmentPermit-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="govtPermitApproved" type="CheckBox" id="300051867">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;govtPermitApproved (govtPermitApproved)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="govtPermitApproved"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="0" name="govtPermit_isGovtPermitApproved" type="CheckBox" id="1173643439">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;isGovtPermitApproved (govtPermit)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="govtPermit/isGovtPermitApproved"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
 <dataHolder supportedType="className" inputId="" name="#FF54A7" type="dataModelerEntry" outId="govtPermit" value="model.GovernmentPermit" id="govtPermit"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="govtPermitApproved" value="java.lang.Boolean" id="govtPermitApproved"/>
 </form>
