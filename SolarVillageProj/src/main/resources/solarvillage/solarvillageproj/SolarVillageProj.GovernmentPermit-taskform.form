@@ -1,8 +1,0 @@
-
-<form id="823215802">
-<property name="name" value="SolarVillageProj.GovernmentPermit-taskform.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder supportedType="className" inputId="" name="#FF54A7" type="dataModelerEntry" outId="govtPermit" value="model.GovernmentPermit" id="govtPermit"/>
-<dataHolder inputId="" name="#E9E371" type="basicType" outId="govtPermitApproved" value="java.lang.Boolean" id="govtPermitApproved"/>
-</form>
