@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53" started-at="2018-03-07T17:03:11Z" finished-at="2018-03-07T17:03:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53" started-at="2018-03-07T17:03:11Z" finished-at="2018-03-07T17:03:11Z">
+      <class name="model.OrderTest">
+        <test-method status="PASS" signature="testGetInstanceWithDate()[pri:0, instance:model.OrderTest@4439f31e]" name="testGetInstanceWithDate" duration-ms="29" started-at="2018-03-07T11:03:11Z" finished-at="2018-03-07T11:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetInstanceWithDate -->
+        <test-method status="PASS" signature="testOrderObject()[pri:0, instance:model.OrderTest@4439f31e]" name="testOrderObject" duration-ms="1" started-at="2018-03-07T11:03:11Z" finished-at="2018-03-07T11:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderObject -->
+      </class> <!-- model.OrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
