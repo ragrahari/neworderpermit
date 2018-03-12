@@ -1,0 +1,90 @@
+
+<form id="424258593">
+<property name="name" value="SolarVillageProj.NewOrder-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="address" type="InputText" id="1886166639">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (address)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="isHOAMember" type="InputText" id="1683127782">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isHOAMember (isHOAMember)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="isHOAMember"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="order_address" type="InputText" id="1906837613">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="order/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="salesApprovalDeadline" type="InputDate" id="2090127426">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;salesApprovalDeadline (salesApprovalDeadline)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="salesApprovalDeadline"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="order_daysToDeadline" type="InputTextPrimitiveInteger" id="1845319269">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;daysToDeadline (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="order/daysToDeadline"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="8" name="order_id" type="InputTextInteger" id="1415649977">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="order/id"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="hoaMeetingDate" type="InputText" id="1323635068">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hoaMeetingDate (hoaMeetingDate)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="hoaMeetingDate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="order_hoaMeetingDate" type="InputDate" id="1807379345">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hoaMeetingDate (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="order/hoaMeetingDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="isPermitApproved" type="InputText" id="577977247">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isPermitApproved (isPermitApproved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="isPermitApproved"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="id" type="InputText" id="1959604307">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="id"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="order_isHOAMember" type="CheckBox" id="1971743945">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isHOAMember (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="order/isHOAMember"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="address" value="java.lang.String" id="address"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="hoaMeetingDate" value="java.lang.String" id="hoaMeetingDate"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="id" value="java.lang.String" id="id"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="isHOAMember" value="java.lang.String" id="isHOAMember"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="isPermitApproved" value="java.lang.String" id="isPermitApproved"/>
+<dataHolder supportedType="className" inputId="" name="#B29FE4" type="dataModelerEntry" outId="order" value="model.Order" id="order"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="salesApprovalDeadline" value="java.util.Date" id="salesApprovalDeadline"/>
+</form>
