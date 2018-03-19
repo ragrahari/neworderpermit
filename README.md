@@ -1,13 +1,13 @@
 # Solar Village Project
 
 ## Overview:
-Solar Village is an energy provider company. The following POC describes the functionality and implementation of the business processes associated with various steps of the requesting permits and their approval process.
+Solar Village is an energy provider company. The following POC describes the functionality and implementation of the business processes associated with various steps of requesting new order permits and their approval process.
 
 
-Solar Village requires a 30 to 40-hour proof of concept (POC) using JBoss BPM Suite. The POC should be able to interact with business and technical associates at Solar Village.
+Solar Village requires a 30 to 40-hour proof of concept (POC) using JBoss BPM Suite. The POC interacts with business and technical associates at Solar Village.
 
 ## Repository Organization:
-This repository consists of following modules
+This repository consists of following modules:
 
 ### solarvillage-domainmodel
 A java-maven based domain model that includes a java class for New Order Permit Requests. The jar file produced by this model is consumed by the processes created on Red Hat JBoss BPM Suite - *business-central*.
@@ -94,10 +94,19 @@ $ ./jboss-cli.sh -c --controller=127.0.0.1:9990
 [standalone@127.0.0.1:9990] /socket-binding-group=standard-sockets/remote-destination-outbound-socket-binding=mail-smtp:write-attribute(name=port,value=2525)
 [standalone@127.0.0.1:9990] exit
 ```
-### Clone, build and install the *domainmodel* and *mockservice*
+### Clone, build, install and start the *domainmodel* and *mockservice*
 1. Clone the repository: https://github.com/ragrahari/neworderpermit.git 
-2. Get into solarvillage-domainmodel folder and execute following: ```$ maven clean install```
-3. Get into solarvillage-mockservice folder and execute following: ```$ maven clean install```
+2. Get into solarvillage-domainmodel folder and execute following: 
+```
+cd ~/<PATH-TO-REPO>/solarvillage-domainmodel/
+mvn clean install
+```
+3. Get into solarvillage-mockservice folder, build and start the SpringBoot application: 
+```
+cd ~/<PATH-TO-REPO>/solarvillage-mockservice/
+mvn clean install
+mvn spring-boot:run
+```
 
 ### Clone the SolarVillageProj KIE Project
 1. Login to business-central using URL: http://localhost:8080/business-central and login using the authentication credentials previously added: ```ragrahari/password@1```
