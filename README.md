@@ -28,8 +28,8 @@ The REST services can set the statuses to: **APPROVED/DENIED/IN_PROGRESS** and B
 A RedHat JBoss BPM Suite based project that consume the domainmodel and mockservice, and consists of two processes - NewOrder and GovernmentPermit. The project can be build and deployed as KJar and processes could be started using business-central or intelligent server curl scripts.
 
 #### NewOrder Process
-This is the main process of the project which also acts as a wrapper to the GovernmentPermit Process. First of all, the process builds the new permit request and checks if the process requires HOA permit (if the residence is a member of Home Owner's Association - HOA):
-- If the residence is a member of HOA, an user task is created where the task gets assigned to the sales.
+This is the main process of the project which also acts as a wrapper to the GovernmentPermit Process. First of all, the process builds a new permit request and checks if the process requires HOA permit (if the residence is a member of Home Owner's Association - HOA):
+- If the residence is a member of HOA, an user task is created where the task gets assigned to *sales* group. Any member of *sales* group can claim the task.
 - If by one week prior to the HOA meeting, the task doesn't get started by anyone from the *sales* group, then the task is re-assigned to the *executive* group and an email is sent out.
 - The application waits until the task gets **completed**.
 - If the HOA Approval is **denied**, then the permit is declined and the the decision is logged and finally the process ends.
@@ -44,7 +44,7 @@ This is a subprocess that gets invoked from NewOrder process when the execution 
 The process binds the reference-id recieved from its parent process (NewOrder) and builds a permit request requesting the government-mock-service to add an entry in the database for the reference-id. The process splits the token of execution using a parallel gateway so the electrical and structural permit approvals can execute in parallel.
 The execution waits until the government permits are either approved/denied. 
 
-A 5-seconds timer keeps the permit requests waiting until their statuses are decided. The permit is approved only if both electrical and structural permits approved. If the process is denied (at least one process was denied) then a compensation event is triggered that rescinds the permits status in the database.
+A 5-seconds timer keeps the permit requests waiting until their statuses are decided. The permit is approved only if both electrical and structural permits are approved. If the process is denied (at least one process was denied) then a compensation event is triggered that rescinds the permit's electrical and structural statuses in the database.
 
 Following is the process diagram for GovernmentPermit process:
 ![final-solarvillageproj governmentpermit](https://user-images.githubusercontent.com/20824893/37574768-421e77c2-2af1-11e8-9e56-95c5412f3312.png)
@@ -68,7 +68,9 @@ Following is the process diagram for GovernmentPermit process:
 ```
 $ ./add-user.sh -a --user ragrahari --password password@1 --role kie-server,admin,rest-all,analyst,sales
 $ ./add-user.sh -a --user execuser --password password@1 --role kie-server,admin,rest-all,analyst,executive
--- Start the EAP:
+```
+5. Start the standalone EAP:
+```
 $ ./standalone.sh
 ```
 ### Set up Email Service:
@@ -94,10 +96,10 @@ $ ./jboss-cli.sh -c --controller=127.0.0.1:9990
 [standalone@127.0.0.1:9990] /socket-binding-group=standard-sockets/remote-destination-outbound-socket-binding=mail-smtp:write-attribute(name=port,value=2525)
 [standalone@127.0.0.1:9990] exit
 ```
-- Restart the standalone server
+- Restart the standalone EAP
 
 ### Clone, build, install and start the *domainmodel* and *mockservice*
-1. Clone the repository: https://github.com/ragrahari/neworderpermit.git 
+1. Clone the repository: ```https://github.com/ragrahari/neworderpermit.git```
 2. Get into solarvillage-domainmodel folder and execute following: 
 ```
 cd ~/<PATH-TO-REPO>/solarvillage-domainmodel/
@@ -111,7 +113,7 @@ mvn spring-boot:run
 ```
 
 ### Clone the SolarVillageProj KIE Project
-1. Login to business-central using URL: http://localhost:8080/business-central and login using the authentication credentials previously added: ```ragrahari/password@1```
+1. Login to business-central using URL: ```http://localhost:8080/business-central``` and login using the authentication credentials previously added: ```ragrahari/password@1```
 2. Add an organization unit. Go to Authoring -->  Administration and Click on Organization Unit --> Manager Organizational Units
 3. Click on "Add" button to add an organization unit - ```solarvillage```
 4. Go to Repositories --> Clone repository. Provide following information on the pop-up window:
