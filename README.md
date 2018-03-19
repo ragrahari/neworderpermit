@@ -61,9 +61,9 @@ Following is the process diagram for GovernmentPermit process:
 
 ## Getting Started:
 ### Installation:
-1. Download RedHat JBoss EAP 7.x from here.
-2. Download RedHat JBoss BPM Suite 6.4 for EAP 7 from here.
-3. Follow section 2.2 of the BPM Suite Installation Guide to install BPM Suite on top of EAP.
+1. Download RedHat JBoss EAP 7.x from [here](https://developers.redhat.com/products/eap/download/).
+2. Download RedHat JBoss BPM Suite 6.4 for EAP 7 from [here](https://developers.redhat.com/products/bpmsuite/download/).
+3. Follow section 2.2 of the BPM Suite [Installation Guide](https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_BPM_Suite/6.4/pdf/Installation_Guide/Red_Hat_JBoss_BPM_Suite-6.4-Installation_Guide-en-US.pdf) to install BPM Suite on top of EAP.
 4. Add users:
 ```
 $ ./add-user.sh -a --user ragrahari --password password@1 --role kie-server,admin,rest-all,analyst,sales
