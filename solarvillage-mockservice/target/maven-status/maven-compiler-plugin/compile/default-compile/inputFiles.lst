@@ -1,4 +1,4 @@
-/home/ragrahari/workspace2/solarvillage-mockservice/src/main/java/domain/model/ElectricPermit.java
-/home/ragrahari/workspace2/solarvillage-mockservice/src/main/java/domain/controller/ElectricPermitController.java
-/home/ragrahari/workspace2/solarvillage-mockservice/src/main/java/domain/SpringBootRestInitializer.java
-/home/ragrahari/workspace2/solarvillage-mockservice/src/main/java/domain/service/ElectricalPermitService.java
+/home/ragrahari/git/neworderpermit/solarvillage-mockservice/src/main/java/domain/model/GovernmentPermit.java
+/home/ragrahari/git/neworderpermit/solarvillage-mockservice/src/main/java/domain/PermitJdbcRepository.java
+/home/ragrahari/git/neworderpermit/solarvillage-mockservice/src/main/java/domain/H2SpringApp.java
+/home/ragrahari/git/neworderpermit/solarvillage-mockservice/src/main/java/domain/controller/PermitController.java

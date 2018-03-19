@@ -94,6 +94,8 @@ $ ./jboss-cli.sh -c --controller=127.0.0.1:9990
 [standalone@127.0.0.1:9990] /socket-binding-group=standard-sockets/remote-destination-outbound-socket-binding=mail-smtp:write-attribute(name=port,value=2525)
 [standalone@127.0.0.1:9990] exit
 ```
+- Restart the standalone server
+
 ### Clone, build, install and start the *domainmodel* and *mockservice*
 1. Clone the repository: https://github.com/ragrahari/neworderpermit.git 
 2. Get into solarvillage-domainmodel folder and execute following: 

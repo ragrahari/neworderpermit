@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="model.OrderTest" duration-ms="47" started-at="2018-03-07T20:32:49Z" finished-at="2018-03-07T20:32:49Z">
+  <suite name="model.OrderTest" duration-ms="49" started-at="2018-03-19T14:36:13Z" finished-at="2018-03-19T14:36:13Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="47" started-at="2018-03-07T20:32:49Z" finished-at="2018-03-07T20:32:49Z">
+    <test name="Command line test" duration-ms="49" started-at="2018-03-19T14:36:13Z" finished-at="2018-03-19T14:36:13Z">
       <class name="model.OrderTest">
-        <test-method status="PASS" signature="testGetInstanceWithDate()[pri:0, instance:model.OrderTest@56cbfb61]" name="testGetInstanceWithDate" duration-ms="27" started-at="2018-03-07T14:32:49Z" finished-at="2018-03-07T14:32:49Z">
+        <test-method status="PASS" signature="testGetInstanceWithDate()[pri:0, instance:model.OrderTest@56cbfb61]" name="testGetInstanceWithDate" duration-ms="30" started-at="2018-03-19T09:36:13Z" finished-at="2018-03-19T09:36:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetInstanceWithDate -->
-        <test-method status="PASS" signature="testOrderObject()[pri:0, instance:model.OrderTest@56cbfb61]" name="testOrderObject" duration-ms="0" started-at="2018-03-07T14:32:49Z" finished-at="2018-03-07T14:32:49Z">
+        <test-method status="PASS" signature="testOrderObject()[pri:0, instance:model.OrderTest@56cbfb61]" name="testOrderObject" duration-ms="2" started-at="2018-03-19T09:36:13Z" finished-at="2018-03-19T09:36:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderObject -->
