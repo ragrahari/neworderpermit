@@ -15,7 +15,7 @@ A java-maven based domain model that includes a java class for New Order Permit 
 ### solarvillage-mockservice
 A java-SpringBoot application project that mocks the government agencies' remote online services.
 - This mock services accepts new permit requests: **/submitPermitRequest**
-- Provides statuses of electrical and structural permit requests individually: **/getStatusElectrical**, **/getStatusStructural**
+- Provides statuses of electrical and structural permit requests individually: **/setElectricalPermit**, **/setStructuralPermit**
 - Set electrical and/or structural statuses: **/setAllPermit**, **/setElectricalPermit**, **/setStructuralPermit**
 - Allows deletion/cancellation of permit requests: **/deletePermitRequest**
 - Allows rescinding permit requests: **/rescindPermitRequest**
